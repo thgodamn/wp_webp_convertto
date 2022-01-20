@@ -39,7 +39,6 @@
 				imagewebp($im, str_replace($ext, 'webp', $image));
 				imagedestroy($im);
 			  } else {
-					convert_webp($current_folder.$foldername.'/'); //для вложенных папок
 					continue;
 			  }
 		}
