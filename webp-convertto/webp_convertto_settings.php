@@ -1,6 +1,6 @@
 <?php
 	
-	function convert_webp ($folder='') { #за базовую берется images в корневой папке
+	function convert_webp ($folder='') {
 		$files = glob($folder."/*.*");
 		$current_folder = $folder;
 		for ($i=0; $i<count($files); $i++)	{
